@@ -1,7 +1,7 @@
-# twemoji-colr
+# catmoji-colr
 
 Project to create a COLR/CPAL-based color OpenType font
-from the [Twemoji](https://twitter.github.io/twemoji/) collection of emoji images.
+from the [Twemoji](https://twitter.github.io/twemoji/) collection of emoji images while overriding default face emojis with cat edits.
 
 Note that the resulting font will **only** be useful on systems that support
 layered color TrueType fonts; this includes Windows 8.1 and later,
@@ -26,13 +26,10 @@ The necessary tools can be installed via npm:
 The build process also requires [fontforge](https://fontforge.github.io/)
 and the TTX script from the [font-tools](https://github.com/behdad/fonttools/) package to be installed, and assumes standard Perl and Python are available.
 
-Both FontForge and font-tools can be installed via `homebrew` on OS X, or package managers on Linux:
-
-    # OS X
-    brew install fonttools fontforge
+Both FontForge and font-tools can be installed via package managers on Linux:
 
     # Ubuntu, for example
-    sudo apt-get install fonttools fontforge python-fontforge
+    sudo apt-get install fonttools fontforge python3-fontforge
 
 ## Building the font
 
@@ -40,4 +37,15 @@ Once the necessary build tools are all in place, simply running
 
     make
 
-should build the color-emoji font `build/Twemoji Mozilla.ttf` from the source SVG files found in `twe-svg.zip` file and `extras`, `overrides` directories.
+should build the color-emoji font `build/Catmoji.ttf` from the source SVG files found in `twe-svg.zip` file and `extras`, `overrides` directories.
+
+## Example of usage in Mozilla Firefox
+Copy Catmoji.ttf from build directory to ~/.local/share/fonts/
+
+In your terminal emulator run: fc-cache -f -v
+
+Restart Mozilla Firefox if you had it open during fc-cache.
+
+Visit about:config and find "font.name-list.emoji"
+
+Replace its value with "Catmoji".

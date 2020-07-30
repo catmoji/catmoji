@@ -1,19 +1,20 @@
 {
-  "name": "twemoji-colr",
-  "description": "Twemoji font in COLR/CPAL layered format.",
+  "name": "catmoji-colr",
+  "description": "Catmoji font in COLR/CPAL layered format.",
   "version": "0.5.1",
   "license": "Apache-2.0",
   "author": "Jonathan Kew <jfkthame@gmail.com>",
   "contributors": [
     "Tim Guan-tin Chien <timdream@gmail.com>",
-    "Essem <smswessem@gmail.com>"
+    "Essem <smswessem@gmail.com>",
+    "Natalia <nat@natalia.ovh"
   ],
   "bugs": {
-    "url": "https://github.com/mozilla/twemoji-colr/issues"
+    "url": "https://github.com/Natalcia/catmoji-colr/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mozilla/twemoji-colr.git"
+    "url": "git+https://github.com/Natalcia/catmoji-colr.git"
   },
   "dependencies": {
     "grunt": "^1.0.2",
@@ -29,9 +30,11 @@
     "emoji",
     "colr",
     "twemoji",
-    "unicode"
+    "unicode",
+    "catmoji",
+    "cat"
   ],
-  "homepage": "https://github.com/mozilla/twemoji-colr#readme",
+  "homepage": "https://github.com/Natalcia/catmoji-colr#readme",
   "devDependencies": {
     "emojibase-data": "^4.2.1",
     "resemblejs": "^2.10.0"

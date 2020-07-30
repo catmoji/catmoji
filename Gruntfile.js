@@ -11,11 +11,11 @@ module.exports = function(grunt) {
 
 	grunt.initConfig({
 		webfont: {
-            Twemoji: {
+            Catmoji: {
                 src: 'build/glyphs/*.svg',
                 dest: 'build/raw-font',
                 options: {
-                    font: 'Twemoji Mozilla',
+                    font: 'Catmoji',
                     types: 'ttf',
                     autoHint: false,
                     execMaxBuffer: 1024 * 1000,
