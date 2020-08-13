@@ -1,5 +1,6 @@
-# catmoji-colr
+# Catmoji
 
+![preview](https://natalia.ovh/syf/catmojipreview.png)
 Project to create a COLR/CPAL-based color OpenType font
 from the [Twemoji](https://twitter.github.io/twemoji/) collection of emoji images while overriding default face emojis with cat edits.
 
