@@ -14,7 +14,7 @@ if they try to use this font.
 
 ## Getting started
 
-This project makes use of [grunt-webfont](https://github.com/sapegin/grunt-webfont)
+This project makes use of [grunt-webfont](https://github.com/Natalcia/grunt-webfont)
 and an additional [node.js](https://nodejs.org/en/) script.
 Therefore, installation of Node.js (Node.js 12 is recommended) (and its package manager [npm](https://www.npmjs.com/)) is a prerequisite.
 Grunt will be installed as a package dependency — no need to install it globally.
@@ -41,12 +41,21 @@ Once the necessary build tools are all in place, simply running
 should build the color-emoji font `build/Catmoji.ttf` from the source SVG files found in `twe-svg.zip` file and `extras`, `overrides` directories.
 
 ## Example of usage in Mozilla Firefox
-Copy Catmoji.ttf from build directory to ~/.local/share/fonts/
+Copy Catmoji.ttf from build directory to `~/.local/share/fonts/`
 
-In your terminal emulator run: fc-cache -f -v
+In your terminal emulator run: 
+
+    fc-cache -f -v
 
 Restart Mozilla Firefox if you had it open during fc-cache.
 
 Visit about:config and find "font.name-list.emoji"
 
 Replace its value with "Catmoji".
+
+## Example of usage in Android (root access required)
+(Systemless, recommended) Download Magisk module from releases and install it with Magisk Manager.
+
+(/system method, not recommended) Download .ttf file from releases and replace `/system/fonts/NotoColorEmoji.ttf` or `/system/fonts/SamsungColorEmoji.ttf` with Catmoji depending what ROM you have.
+
+After replacing font file or installing Magisk module, reboot and Catmoji will be seen instead of regular emojis.
