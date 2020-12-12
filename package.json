@@ -11,11 +11,11 @@
     "elonmusksama (https://github.com/elonmusksama)"
   ],
   "bugs": {
-    "url": "https://github.com/Natalcia/catmoji-colr/issues"
+    "url": "https://github.com/Morelcia/catmoji-colr/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Natalcia/catmoji-colr.git"
+    "url": "git+https://github.com/Morelcia/catmoji-colr.git"
   },
   "dependencies": {
     "grunt": "^1.2.1",
@@ -35,7 +35,7 @@
     "catmoji",
     "cat"
   ],
-  "homepage": "https://github.com/Natalcia/catmoji-colr#readme",
+  "homepage": "https://github.com/Morelcia/catmoji-colr#readme",
   "scripts": {
     "grunt": "grunt"
   }
