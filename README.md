@@ -1,15 +1,14 @@
-<p align="center">
+<div align="center">
 
 # Catmoji
 [![Latest Release](https://img.shields.io/github/v/release/Morelcia/catmoji-colr?color=green&label=Release)](https://github.com/Morelcia/catmoji-colr/releases/latest)
 [![Discord](https://img.shields.io/discord/752858039337615452?color=blue&label=Discord)](https://discord.gg/32X67EB)
 [![HitCount](http://hits.dwyl.com/Morelcia/catmoji-colr.svg)](http://hits.dwyl.com/Morelcia/catmoji-colr)
-</p>
+</div>
 
 ![preview](https://natalia.ovh/syf/catmojipreview.png)
 
-Catmoji is a project to create a COLR/CPAL-based color OpenType font
-from the [Twemoji](https://twitter.github.io/twemoji/) collection of emoji images while overriding default face emojis with cat edits.
+Catmoji is a project to create a COLR/CPAL-based color OpenType font from the [Twemoji](https://twitter.github.io/twemoji/) collection of emoji images while overriding default face emojis with cat edits.
 
 Note that the resulting font will **only** be useful on systems that support
 layered color TrueType fonts; this includes Windows 8.1 and later,
@@ -41,7 +40,7 @@ Both FontForge and font-tools can be installed via package managers on Linux:
 
 ## Building the font
 
-Once the necessary build tools are all in place, simply running
+Once the necessary build tools are all in place, simply running:
 
     make
 
