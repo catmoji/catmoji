@@ -1,7 +1,14 @@
+<p align="center">
+
 # Catmoji
+[![Latest Release](https://img.shields.io/github/v/release/Morelcia/catmoji-colr?color=green&label=Release)](https://github.com/Morelcia/catmoji-colr/releases/latest)
+[![Discord](https://img.shields.io/discord/752858039337615452?color=blue&label=Discord)](https://discord.gg/32X67EB)
+[![HitCount](http://hits.dwyl.com/Morelcia/catmoji-colr.svg)](http://hits.dwyl.com/Morelcia/catmoji-colr)
+</p>
 
 ![preview](https://natalia.ovh/syf/catmojipreview.png)
-Project to create a COLR/CPAL-based color OpenType font
+
+Catmoji is a project to create a COLR/CPAL-based color OpenType font
 from the [Twemoji](https://twitter.github.io/twemoji/) collection of emoji images while overriding default face emojis with cat edits.
 
 Note that the resulting font will **only** be useful on systems that support
@@ -14,7 +21,7 @@ if they try to use this font.
 
 ## Getting started
 
-This project makes use of [grunt-webfont](https://github.com/Natalcia/grunt-webfont)
+This project makes use of [grunt-webfont](https://github.com/Morelcia/grunt-webfont)
 and an additional [node.js](https://nodejs.org/en/) script.
 Therefore, installation of Node.js (Node.js 12 is recommended) (and its package manager [npm](https://www.npmjs.com/)) is a prerequisite.
 Grunt will be installed as a package dependency — no need to install it globally.
@@ -41,7 +48,7 @@ Once the necessary build tools are all in place, simply running
 should build the color-emoji font `build/Catmoji.ttf` from the source SVG files found in `twe-svg.zip` file and `extras`, `overrides` directories.
 
 ## Example of usage in Mozilla Firefox
-Copy Catmoji.ttf from build directory to `~/.local/share/fonts/`
+Copy `Catmoji.ttf` from build directory to `~/.local/share/fonts/`
 
 In your terminal emulator run: 
 
@@ -49,7 +56,7 @@ In your terminal emulator run:
 
 Restart Mozilla Firefox if you had it open during fc-cache.
 
-Visit about:config and find "font.name-list.emoji"
+Visit `about:config` and find `"font.name-list.emoji"`
 
 Replace its value with "Catmoji".
 
