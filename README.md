@@ -22,7 +22,7 @@ if they try to use this font.
 
 This project makes use of [grunt-webfont](https://github.com/Morelcia/grunt-webfont)
 and an additional [node.js](https://nodejs.org/en/) script.
-Therefore, installation of Node.js (Node.js 12 is recommended) (and its package manager [npm](https://www.npmjs.com/)) is a prerequisite.
+Therefore, installation of Node.js (Node.js 14/15 is recommended) (and its package manager [npm](https://www.npmjs.com/)) is a prerequisite.
 Grunt will be installed as a package dependency — no need to install it globally.
 
 The necessary tools can be installed via npm:
