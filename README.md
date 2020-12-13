@@ -36,7 +36,7 @@ and the TTX script from the [font-tools](https://github.com/behdad/fonttools/) p
 Both FontForge and font-tools can be installed via package managers on Linux:
 
     # Ubuntu, for example
-    sudo apt-get install fonttools fontforge python3-fontforge
+    sudo apt-get install fonttools fontforge python3-fontforge python3-distutils
 
 ## Building the font
 

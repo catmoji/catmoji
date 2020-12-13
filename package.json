@@ -7,7 +7,7 @@
   "contributors": [
     "Tim Guan-tin Chien <timdream@gmail.com>",
     "Essem <smswessem@gmail.com>",
-    "Natalcia <nat@natalia.ovh>",
+    "Morelcia <nat@natalia.ovh>",
     "elonmusksama (https://github.com/elonmusksama)"
   ],
   "bugs": {
@@ -18,12 +18,12 @@
     "url": "git+https://github.com/Morelcia/catmoji-colr.git"
   },
   "dependencies": {
-    "grunt": "^1.2.1",
+    "grunt": "^1.3.0",
     "grunt-cli": "^1.3.2",
-    "grunt-webfont": "Natalcia/grunt-webfont#node-12",
+    "grunt-webfont": "Morelcia/grunt-webfont#node-12",
     "load-grunt-tasks": "^5.1.0",
     "rmdir": "^1.2.0",
-    "unzip": "^0.1.11",
+    "unzip": "Morelcia/node-unzip",
     "xml2js": "^0.4.23",
     "xmlbuilder": "^15.1.1"
   },
