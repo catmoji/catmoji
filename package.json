@@ -7,23 +7,23 @@
   "contributors": [
     "Tim Guan-tin Chien <timdream@gmail.com>",
     "Essem <smswessem@gmail.com>",
-    "Morelcia <nat@natalia.ovh>",
+    "Morelcia <nat@nekopon.pl>",
     "elonmusksama (https://github.com/elonmusksama)"
   ],
   "bugs": {
-    "url": "https://github.com/Morelcia/catmoji-colr/issues"
+    "url": "https://github.com/catmoji/catmoji-colr/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Morelcia/catmoji-colr.git"
+    "url": "git+https://github.com/catmoji/catmoji-colr.git"
   },
   "dependencies": {
     "grunt": "^1.3.0",
     "grunt-cli": "^1.3.2",
-    "grunt-webfont": "Morelcia/grunt-webfont#node-12",
+    "grunt-webfont": "catmoji/grunt-webfont#node-12",
     "load-grunt-tasks": "^5.1.0",
     "rmdir": "^1.2.0",
-    "unzip": "Morelcia/node-unzip",
+    "unzip": "catmoji/node-unzip",
     "xml2js": "^0.4.23",
     "xmlbuilder": "^15.1.1"
   },
@@ -35,7 +35,7 @@
     "catmoji",
     "cat"
   ],
-  "homepage": "https://github.com/Morelcia/catmoji-colr#readme",
+  "homepage": "https://github.com/catmoji/catmoji-colr#readme",
   "scripts": {
     "grunt": "grunt"
   }

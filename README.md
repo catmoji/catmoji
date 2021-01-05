@@ -1,12 +1,11 @@
 <div align="center">
 
 # Catmoji
-[![Latest Release](https://img.shields.io/github/v/release/Morelcia/catmoji-colr?color=green&label=Release)](https://github.com/Morelcia/catmoji-colr/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/catmoji/catmoji-colr?color=green&label=Release)](https://github.com/catmoji/catmoji-colr/releases/latest)
 [![Discord](https://img.shields.io/discord/752858039337615452?color=blue&label=Discord)](https://discord.gg/32X67EB)
-[![HitCount](http://hits.dwyl.com/Morelcia/catmoji-colr.svg)](http://hits.dwyl.com/Morelcia/catmoji-colr)
 </div>
 
-![preview](https://natalia.ovh/syf/catmojipreview.png)
+![preview](https://nekopon.pl/syf/catmojipreview.png)
 
 Catmoji is a project to create a COLR/CPAL-based color OpenType font from the [Twemoji](https://twitter.github.io/twemoji/) collection of emoji images while overriding default face emojis with cat edits.
 
@@ -20,7 +19,7 @@ if they try to use this font.
 
 ## Getting started
 
-This project makes use of [grunt-webfont](https://github.com/Morelcia/grunt-webfont)
+This project makes use of [grunt-webfont](https://github.com/catmoji/grunt-webfont)
 and an additional [node.js](https://nodejs.org/en/) script.
 Therefore, installation of Node.js (Node.js 14/15 is recommended) (and its package manager [npm](https://www.npmjs.com/)) is a prerequisite.
 Grunt will be installed as a package dependency — no need to install it globally.
