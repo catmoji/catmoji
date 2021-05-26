@@ -64,3 +64,22 @@ Replace its value with "Catmoji".
 (/system method, not recommended) Download .ttf file from releases and replace `/system/fonts/NotoColorEmoji.ttf` or `/system/fonts/SamsungColorEmoji.ttf` with Catmoji depending what ROM you have.
 
 After replacing font file or installing Magisk module, reboot and Catmoji will be seen instead of regular emojis.
+
+
+## Installing Catmoji systemwide on Debian based distributions
+Download Noto font release and put Catmoji .ttf file into `/usr/share/fonts/`.
+
+Open `/etc/fonts/conf.d/45-generic.conf` file with your preferred text editor and above list of emoji fonts add
+
+```
+<alias binding="same">
+        <family>Twemoji</family> <!-- Catmoji -->
+        <default><family>emoji</family></default>
+</alias>
+```
+
+Now open `/etc/fonts/conf.d/60-generic.conf` file with your preferred text editor and above list of emoji fonts add
+
+```
+<family>Twemoji</family>
+```
