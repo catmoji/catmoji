@@ -1,0 +1,25 @@
+name: build-colr
+on: [push]
+
+jobs:
+  build-colr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install APT dependencies
+        run: |
+          sudo apt update 
+          sudo apt install -y fonttools fontforge python3-fontforge python3-distutils make nodejs npm
+
+      - name: Install NPM dependencies
+        run: npm install
+
+      - name: Build Catmoji font files
+        run: make
+
+      - name: Upload packages as artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: catmoji-colr
+          path: ${{ github.workspace }}/build/Catmoji.ttf
